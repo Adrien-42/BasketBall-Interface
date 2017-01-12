@@ -5,7 +5,7 @@ public class Team {
         setTeamName(name);
         setSchool(school);
     }
-    
+
     String teamName;
     public String getTeamName() {
         return teamName;
