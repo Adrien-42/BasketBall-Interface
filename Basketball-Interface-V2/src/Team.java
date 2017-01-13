@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Team {
-    public void Team(String name, String school){
+    public Team(String name, String school){
         setTeamName(name);
         setSchool(school);
     }

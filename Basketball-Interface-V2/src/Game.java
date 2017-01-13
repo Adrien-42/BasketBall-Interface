@@ -4,7 +4,7 @@ import java.util.GregorianCalendar;
 
 public class Game {
     //Date in Month/Day/Year format
-    public void Game(String location, String date, String time){
+    public Game(String location, String date, String time){
         String[] dateArray = date.split("/");
 
         setLocation(location);

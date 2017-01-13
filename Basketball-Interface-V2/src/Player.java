@@ -2,12 +2,12 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class Player {
-    public void Player(String name, int age, int yearOfGrad){
+    public Player(String name, int age, int yearOfGrad){
         setName(name);
         setAge(age);
         setYearOfGrad(yearOfGrad);
     }
-    public void Player(String name, int age){
+    public Player(String name, int age){
         Calendar now = Calendar.getInstance();
         int year = now.get(Calendar.YEAR);
 
@@ -15,7 +15,7 @@ public class Player {
         setAge(age);
         setYearOfGrad(year);
     }
-    public void Player(String name){
+    public Player(String name){
         Calendar now = Calendar.getInstance();
         int year = now.get(Calendar.YEAR);
 
