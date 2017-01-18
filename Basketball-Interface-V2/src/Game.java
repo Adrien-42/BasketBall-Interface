@@ -39,6 +39,7 @@ public class Game {
         this.teams[0]=team1;
         this.teams[1]=team2;
     }
+    //teamSlot = 1 or 2
     public void setTeam(Team team, int teamSlot){ //teamSlot is the position in the array -1
         this.teams[teamSlot-1]=team;
     }
