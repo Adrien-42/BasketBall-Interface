@@ -1,6 +1,14 @@
 public class GameStats {
     public GameStats(){
-
+        setStat1(0);
+        setStat2(0);
+        setStat3(0);
+        setStat4(0);
+        setStat5(0);
+        setStat6(0);
+        setStat7(0);
+        setStat8(0);
+        setStat9(0);
     }
 
     int stat1, stat2, stat3, stat4, stat5, stat6, stat7, stat8, stat9;
