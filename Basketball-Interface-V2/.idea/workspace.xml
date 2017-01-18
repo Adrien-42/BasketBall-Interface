@@ -466,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484756266336</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Split playerStats in Game class to team one and team two stats">
+      <created>1484761821594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484761821594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
