@@ -39,6 +39,13 @@ public class Game {
     }
     public Team[] getTeams(){return teams;}
 
-    private ArrayList<GameStats> playerStats = new ArrayList<>();
-    public void addPlayerStat(GameStats playerStats){this.playerStats.add(playerStats);}
+    //If theses exist separately, then is game stats necessary? If they don't exist
+    //separately then how does game stats get the team stats...
+    private ArrayList<GameStats> teamOneStats = new ArrayList<>();
+    public void addTeamOneStat(GameStats playerStats){this.teamOneStats.add(playerStats);}
+    public ArrayList<GameStats> getTeamOneStats(){return teamOneStats;}
+
+    private ArrayList<GameStats> teamTwoStats = new ArrayList<>();
+    public void addTeamTwoStat(GameStats playerStats){this.teamTwoStats.add(playerStats);}
+    public ArrayList<GameStats> getTeamTwoStats(){return teamTwoStats;}
 }
