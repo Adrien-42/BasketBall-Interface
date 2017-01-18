@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e654ec8b-95c1-443b-a6a5-a08d0f3eff70" name="Default" comment="Split playerStats in Game class to team one and team two stats">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Season.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GameStatsTeam.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SeasonStatsTeam.java" afterPath="" />
+    <list default="true" id="e654ec8b-95c1-443b-a6a5-a08d0f3eff70" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Basketball-Interface-V2.iws" />
@@ -76,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/Season.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#86#87#0" expanded="true" />
                 <element signature="e#130#131#0" expanded="true" />
@@ -477,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484761830258</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Split playerStats in Game class to team one and team two stats">
+      <created>1484763094878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1484763094878</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -822,7 +826,7 @@
     <entry file="file://$PROJECT_DIR$/src/Season.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#86#87#0" expanded="true" />
             <element signature="e#130#131#0" expanded="true" />
