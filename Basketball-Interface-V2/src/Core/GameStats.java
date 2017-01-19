@@ -1,3 +1,5 @@
+package Core;
+
 public class GameStats {
     public GameStats(){
         setStat1(0);

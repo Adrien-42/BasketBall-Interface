@@ -1,3 +1,5 @@
+package Core;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -34,9 +36,8 @@ public class Game {
         this.teams[1]=team2;
     }
     //teamSlot = 1 or 2
-    public void setTeam(Team team, int teamSlot){ //teamSlot is the position in the array -1
-        this.teams[teamSlot-1]=team;
-    }
+    //teamSlot is the position in the array -1
+    public void setTeam(Team team, int teamSlot){this.teams[teamSlot-1]=team;}
     public Team[] getTeams(){return teams;}
 
     //If theses exist separately, then is game stats necessary? If they don't exist
